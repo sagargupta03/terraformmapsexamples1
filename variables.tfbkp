@@ -1,0 +1,8 @@
+variable "env" {
+  description = "env: dev or prod"
+}
+
+variable "image2" {
+  description = "image for container"
+  type        = "map"
+}
